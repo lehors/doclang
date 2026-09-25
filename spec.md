@@ -59,6 +59,19 @@ This standard specifies:
 - Specifications for complex document components (tables, charts, formulas, code, forms)
 - Requirements for conforming implementations
 
+## Normative references
+
+The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.
+
+1. SmolDocling: An ultra-compact vision-language model for end-to-end multi-modal document conversion
+2. Optimized Table Tokenization for Table Structure Recognition (OTSL)
+3. DoclingDocument API Specification
+4. W3C XML 1.0 Specification (Fifth Edition)
+5. W3C HTML5 Specification
+6. ISO 32000-2:2020 (PDF 2.0)
+7. ISO 8601
+8. Semantic Versioning 2.0.0 (semver.org)
+
 ### Motivation
 
 The motivation for this new markup language is twofold,
@@ -2079,17 +2092,6 @@ For local/private usage where formal namespaces are not used, a collision-resist
   <src uri="molecule.svg"/>
 </picture>
 ```
-
-## Bibliography
-
-1. SmolDocling: An ultra-compact vision-language model for end-to-end multi-modal document conversion
-2. Optimized Table Tokenization for Table Structure Recognition
-3. DoclingDocument API Specification
-4. W3C XML 1.0 Specification (Fifth Edition)
-5. W3C HTML5 Specification
-6. ISO 32000-2:2020 (PDF 2.0)
-7. ISO 8601
-8. Semantic Versioning 2.0.0 (semver.org)
 
 ## Appendix
 
