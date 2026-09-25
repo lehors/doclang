@@ -92,28 +92,31 @@ Beyond certain low-level similarities (e.g. presence of bounding box information
 - The above-mentioned formats focus on OCR processing, e.g. for archives, browser display, or other types of OCR/HTR pipelines, while DocLang is designed for LLM/VLM generation, with token efficiency in mind.
 - Whereas these formats are primarily concerned with the geometric locations of the various spans of text, DocLang also places a strong focus on the semantic meaning and internal structure of the involved complex components, providing various native elements for headings, formulas, code, etc. and also rich table structure support (incl. table headings, spanned cells, etc.), this way capturing richer context for generative AI applications to leverage.
 
-## Language Design Principles
+## Terms and definitions
 
-### Terminology
+### Abstract concepts
 
-Abstract concepts:
+1. **document component** A cohesive and meaningful part of the document, e.g. a table, list item with a marker, a bold piece of text, etc.
 
-- **document component**: A cohesive and meaningful part of the document, e.g. a table, list item with a marker, a bold piece of text, etc.
+### Adopted from XML
 
-Adopted from XML:
+1. **element** An XML element.
 
-- **element**: An XML element.
-- **attribute**: An XML attribute.
-- **tag**: An XML tag: can be a start-tag, an end-tag, or an empty-element tag (a.k.a. self-closing tag).
+2. **attribute** An XML attribute.
+
+3. **tag** An XML tag: can be a start-tag, an end-tag, or an empty-element tag (a.k.a. self-closing tag).
 
 When referring to an attribute in prose, this specification uses XPath-style notation: `element@attribute` (e.g. `label@value`, `location@resolution`).
 
-Adopted from HTML:
+### Adopted from HTML
 
-- **block-level element**: An element that is meant to be interpreted or displayed as a block, i.e. starting on a new line, occupying the full width of its container, and typically with increased margin to any other neighboring block-level elements; a typical HTML example is the `p` element (paragraph).
-- **inline element**: An element that can be used *within* a block element to shape its in-line structure; a typical HTML example is the `span` element.
+1. **block-level element** An element that is meant to be interpreted or displayed as a block, i.e. starting on a new line, occupying the full width of its container, and typically with increased margin to any other neighboring block-level elements; a typical HTML example is the `p` element (paragraph).
+
+2. **inline element** An element that can be used *within* a block element to shape its in-line structure; a typical HTML example is the `span` element.
 
 Note that, whether block-level or inline, an element may contain *explicit* new lines.
+
+## Language Design Principles
 
 ### Property Semantics
 
