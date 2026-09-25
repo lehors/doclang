@@ -18,9 +18,11 @@
 
 This repository is the home of the normative specification and the reference toolkit for DocLang. If you build with LLMs and VLMs on real-world content, this is where the standard lives.
 
+For additional background information see [MOTIVATION.md](MOTIVATION.md).
+
 ## Specification
 
-The source of the specification is available in [spec.md](https://github.com/doclang-project/doclang/blob/main/spec.md)
+The source of the specification is available in [spec.md](spec.md)
 and exports to different formats can be found in the [exports/](https://github.com/doclang-project/doclang/tree/main/exports)
 directory.
 
@@ -28,7 +30,7 @@ directory.
 
 The commands below illustrate basic scenarios. For advanced installation and usage options
 (minimal install, platform notes, custom Schematron backends, Python API), see the
-[toolkit README](https://github.com/doclang-project/doclang/blob/main/doclang/README.md).
+[toolkit README](doclang/README.md).
 
 ### Installation
 
@@ -64,7 +66,7 @@ If you use DocLang in academic or technical work, please cite the specification:
 
 ## Development
 
-To work on this repository — setup, tests, reference generation, releases — see [CONTRIBUTING.md](https://github.com/doclang-project/doclang/blob/main/CONTRIBUTING.md).
+To work on this repository — setup, tests, reference generation, releases — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## We ❤️ Open Source AI
 
@@ -72,4 +74,4 @@ DocLang is developed in the open and supported by the [LF AI & Data Foundation](
 
 ## License
 
-DocLang is licensed under the Apache License 2.0. See [LICENSE](https://github.com/doclang-project/doclang/blob/main/LICENSE) for details.
+DocLang is licensed under the Apache License 2.0. See [LICENSE](LICENSE) for details.
