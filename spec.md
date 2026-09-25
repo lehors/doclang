@@ -63,14 +63,10 @@ This standard specifies:
 
 The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.
 
-1. SmolDocling: An ultra-compact vision-language model for end-to-end multi-modal document conversion
-2. Optimized Table Tokenization for Table Structure Recognition (OTSL)
-3. DoclingDocument API Specification
-4. W3C XML 1.0 Specification (Fifth Edition)
-5. W3C HTML5 Specification
-6. ISO 32000-2:2020 (PDF 2.0)
-7. ISO 8601
-8. Semantic Versioning 2.0.0 (semver.org)
+1. Optimized Table Tokenization for Table Structure Recognition (OTSL)
+2. W3C XML 1.0 Specification (Fifth Edition)
+3. W3C HTML5 Specification
+4. Semantic Versioning 2.0.0 (semver.org)
 
 ### Motivation
 
@@ -4249,3 +4245,11 @@ As applications can have varying requirements, this standard defines a set of re
 cases, but also allows for custom metadata elements to be added.
 To avoid collisions, custom metadata SHOULD always be properly namespaced, as illustrated in the examples further below.
 -->
+
+## Bibliography
+
+The following lists the documents which are cited informatively in this document, as well as other information resources. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.
+
+1. SmolDocling: An ultra-compact vision-language model for end-to-end multi-modal document conversion
+2. DoclingDocument API Specification
+3. ISO 8601
