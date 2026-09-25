@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ============================================ -->
+<!-- This schema is meant to enable validation of Doclang documents in line with the Doclang specification. -->
+<!-- In case of discrepancies, the authoritative source is the specification. -->
+<!-- ============================================ -->
+
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron"
             xmlns:dl="https://www.doclang.ai/ns/v0"
             queryBinding="xslt3">
