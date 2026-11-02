@@ -3595,7 +3595,7 @@ Content inside [`<custom>`](#custom) is implementation-defined and not governed 
 To improve interoperability and reduce naming collisions, the following recommendations apply:
 
 - Producers of shared custom vocabularies SHOULD use formal XML namespaces with stable namespace URIs.
-- Processors SHOULD treat the namespace URI as the namespace identifier and MUST NOT assume semantic meaning from prefix names alone.
+- Processors SHOULD treat the namespace URI as the namespace identifier and SHOULD NOT assume semantic meaning from prefix names alone.
 - For private or local use where formal namespaces are not used, producers SHOULD use collision-resistant element names prefixed with a stable organization or project identifier (e.g. `acme_`).
 - Producers SHOULD avoid ambiguous generic names such as `item`, `meta`, or `data` unless these are clearly scoped by namespace or equivalent prefixing.
 - Producers SHOULD document custom vocabularies (intended meaning, value domains, and versioning policy) when documents are shared across tools or organizations.
